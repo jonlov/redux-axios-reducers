@@ -1,3 +1,5 @@
+CURDIR := .
+
 $(CURDIR)/node_modules: package.json
 	npm install
 	touch $(CURDIR)/node_modules
